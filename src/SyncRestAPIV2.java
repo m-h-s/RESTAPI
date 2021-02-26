@@ -6,6 +6,22 @@ import java.util.concurrent.CompletableFuture;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
+/**
+ * 
+ * @author Mahsa Sadi
+ * @since 2021-02-25
+ * 
+ * This class connects to a REST API in Java 11 or later.
+ * The connection is synchronous.
+ * The class receives the response from the REST API.
+ * The class parses the JSON response.
+ * 
+ * 
+ * important:
+ * JSON Library: org.json.*;
+ * 
+ *
+ */
 
 public class SyncRestAPIV2 {
 
