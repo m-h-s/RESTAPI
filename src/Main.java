@@ -27,8 +27,8 @@ public class Main {
 
 		// 3- working with the sync version - Java 11:
 		SyncRestAPIV2 gitAPI3 = new SyncRestAPIV2();
-		String response3 = gitAPI2.connect("https://api.github.com/users/m-h-s/repos");
-		gitAPI2.parseJSONResponse(response3);
+		String response3 = gitAPI3.connect("https://api.github.com/users/m-h-s/repos");
+		gitAPI3.parseJSONResponse(response3);
 	}
 
 }
